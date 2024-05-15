@@ -6,6 +6,6 @@ export const routes: Routes = [
   {
     path: 'tabela',
     loadChildren: () =>
-      import('./tabela/tabela.module').then((m) => m.TabelaModule),
+      import('./tabela/tabela/tabela.module').then((m) => m.TabelaModule),
   },
 ];
